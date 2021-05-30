@@ -1,5 +1,3 @@
-import * as D3 from '../../node_modules/d3/dist/d3.js';
-
 (async function main() {
 	const dataset = await fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json')
 		.then((response) => response.body.getReader().read())
